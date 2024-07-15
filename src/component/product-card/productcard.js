@@ -1,10 +1,20 @@
 import React from 'react'
-import './product-card.css'
+import './productcard.css'
+import { Link } from "react-router-dom";
 
-function productcard() {
+function procard({ id, name, imageUrl, description, price }) {
   return (
-    <div>product-card</div>
-  )
+    <Link className="card" to={`/product/${id}`}>
+      <div className="image">
+        <img src={imageUrl} alt={name} />
+      </div>
+      <h2 className="name">{name}</h2>
+      <p className="description">{description.substring(0, 100)}...</p>
+      <div className="price-container">
+        <span className="price">Price : {price}</span>
+      </div>
+    </Link>
+  );
 }
 
-export default productcard
+export default procard;
