@@ -1,5 +1,5 @@
-import React from 'react'
-import './productcard.css'
+import React from "react";
+import "./productcard.css";
 import { Link } from "react-router-dom";
 
 function procard({ id, name, imageUrl, description, price }) {

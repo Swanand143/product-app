@@ -6,6 +6,13 @@ const products = [
     description:
       "Samsung Galaxy F23 5G with 6GB RAM, 128GB Storage, and Snapdragon 750G Processor.",
     imageUrl: "https://example.com/images/samsung-galaxy-f23.jpg",
+    info : {
+        part1 : "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        part2: "16.76 cm (6.6 inch) Full HD+ Display",
+        part3: "50MP + 8MP + 2MP | 8MP Front Camera",
+        part4: "5000 mAh Lithium Ion Battery",
+        part5: "Qualcomm Snapdragon 750G Processor",
+    }
   },
   {
     id: "vivo T2x 5G",

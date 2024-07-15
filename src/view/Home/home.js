@@ -4,7 +4,7 @@ import Procard from "../../component/product-card/productcard";
 function Home() {
   return (
     <>
-    <h2>My Products</h2>
+      <h2>My Products</h2>
       <div className="card-container">
         {Products.map((proObject, i) => {
           const { id, name, imageUrl, description, price } = proObject;
