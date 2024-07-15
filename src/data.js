@@ -50,7 +50,14 @@ const products = [
     price: "₹15,999",
     description:
       "OPPO K10 5G with 8GB RAM, 128GB Storage, and MediaTek Dimensity 810 Processor.",
-    imageUrl: "https://rukminim2.flixcart.com/image/312/312/l2jcccw0/mobile/h/x/3/-original-imagduwqakhhkrse.jpeg?q=70",
+    imageUrl: "https://rukminim2.flixcart.com/image/312/312/l4d2ljk0/mobile/z/i/s/-original-imagf9wt7v5pugmy.jpeg?q=70",
+    info : {
+      part1 : "8 GB RAM | 128 GB ROM | Expandable Upto 1",
+      part2: "16.76 cm (6.59 inch) Full HD+ Display",
+      part3: "64MP + 2MP | 16MP Front Camera",
+      part4: "5000 mAh Lithium Ion Battery",
+      part5: "MediaTek Dimensity 810 Processor",
+      }
   },
   {
     id: "realme 9 Pro+ 5G",
@@ -58,7 +65,14 @@ const products = [
     price: "₹24,999",
     description:
       "realme 9 Pro+ 5G with 8GB RAM, 256GB Storage, and MediaTek Dimensity 920 Processor.",
-    imageUrl: "https://example.com/images/realme-9-pro-plus.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71lAaxWS2YL._AC_UF1000,1000_QL80_.jpg",
+    info : {
+      part1 : "8 GB RAM | 256 GB ROM | Expandable Upto 1",
+      part2: "16.76 cm (6.6 inch) Full HD+ Display",
+      part3: "50MP + 8MP + 2MP | 16MP Front",
+      part4: "5000 mAh Lithium Ion Battery",
+      part5: "MediaTek Dimensity 920 Processor",
+      }
   },
 ];
 
